@@ -31,6 +31,9 @@ const ChooseSize = () => {
     
     return (
         <div className="choose-main">
+            
+            <div className="scroller"></div>
+            <div className="scroller-btn">12"</div>
             <div className="choose-top">
                 <div>
                     <p className="choose-size-heading">Create Your Pizza</p>

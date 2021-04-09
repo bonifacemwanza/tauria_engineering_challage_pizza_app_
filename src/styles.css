@@ -43,6 +43,26 @@ a { text-decoration: none; color: inherit; }
     position: relative;
     align-items: center;
 }
+.scroller{
+    position: absolute;
+    top: 9%;
+    width: 400px;
+    height: 375px;
+    border-bottom: 1px solid #c1caf0;
+    border-radius: 50%;
+}
+.scroller-btn{
+    position: absolute;
+    top: 57%;
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    color: var(--purple);
+    background-color: #d1d8f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .choose-top{
     height: 35%;
     width: 100%;
